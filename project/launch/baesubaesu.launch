@@ -1,0 +1,4 @@
+<launch>
+    <!--<param name="/use_sim_time" value="true"/>-->
+    <node pkg="project" type="chase_the_ball.py" name="chase_ball" output="screen"/>
+</launch>
